@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinCalculadora.UWP", "XamarinCalculadora\XamarinCalculadora.UWP\XamarinCalculadora.UWP.csproj", "{34B7AD65-C820-44EF-B91B-60E677429E42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora.Android", "XamarinCalculadora\XamarinCalculadora.Android\Calculadora.Android.csproj", "{21CA74D1-61DF-496B-9B6C-CD7057EA187B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinCalculadora.Android", "XamarinCalculadora\XamarinCalculadora.Android\XamarinCalculadora.Android.csproj", "{21CA74D1-61DF-496B-9B6C-CD7057EA187B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora.iOS", "XamarinCalculadora\XamarinCalculadora.iOS\Calculadora.iOS.csproj", "{25E29E59-8799-4BB0-913B-DBCD84CCE7C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinCalculadora.iOS", "XamarinCalculadora\XamarinCalculadora.iOS\XamarinCalculadora.iOS.csproj", "{25E29E59-8799-4BB0-913B-DBCD84CCE7C2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinCalculadora", "XamarinCalculadora\XamarinCalculadora\XamarinCalculadora.csproj", "{9B7F3A21-7CE8-4A5D-8612-2AFBC062C7E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculadora", "XamarinCalculadora\XamarinCalculadora\Calculadora.csproj", "{9B7F3A21-7CE8-4A5D-8612-2AFBC062C7E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,42 +25,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Debug|Any CPU.Build.0 = Debug|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Debug|Any CPU.Deploy.0 = Debug|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Debug|ARM.ActiveCfg = Debug|ARM
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Debug|ARM.Build.0 = Debug|ARM
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Debug|ARM.Deploy.0 = Debug|ARM
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Debug|iPhone.ActiveCfg = Debug|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Debug|iPhone.Build.0 = Debug|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Debug|iPhone.Deploy.0 = Debug|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Debug|iPhoneSimulator.ActiveCfg = Debug|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Debug|iPhoneSimulator.Build.0 = Debug|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Debug|iPhoneSimulator.Deploy.0 = Debug|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Debug|x64.ActiveCfg = Debug|x64
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Debug|x64.Build.0 = Debug|x64
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Debug|x64.Deploy.0 = Debug|x64
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Debug|x86.ActiveCfg = Debug|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Debug|x86.Build.0 = Debug|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Debug|x86.Deploy.0 = Debug|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Release|Any CPU.ActiveCfg = Release|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Release|Any CPU.Build.0 = Release|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Release|Any CPU.Deploy.0 = Release|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Release|ARM.ActiveCfg = Release|ARM
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Release|ARM.Build.0 = Release|ARM
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Release|ARM.Deploy.0 = Release|ARM
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Release|iPhone.ActiveCfg = Release|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Release|iPhone.Build.0 = Release|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Release|iPhone.Deploy.0 = Release|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Release|iPhoneSimulator.ActiveCfg = Release|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Release|iPhoneSimulator.Build.0 = Release|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Release|iPhoneSimulator.Deploy.0 = Release|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Release|x64.ActiveCfg = Release|x64
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Release|x64.Build.0 = Release|x64
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Release|x64.Deploy.0 = Release|x64
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Release|x86.ActiveCfg = Release|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Release|x86.Build.0 = Release|x86
-		{34B7AD65-C820-44EF-B91B-60E677429E42}.Release|x86.Deploy.0 = Release|x86
 		{21CA74D1-61DF-496B-9B6C-CD7057EA187B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{21CA74D1-61DF-496B-9B6C-CD7057EA187B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21CA74D1-61DF-496B-9B6C-CD7057EA187B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU

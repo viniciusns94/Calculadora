@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -88,10 +88,10 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\XamarinCalculadora\XamarinCalculadora.csproj">
-      <Project>{25C531CF-A14F-4164-9298-3AD70AFFA8EC}</Project>
-      <Name>XamarinCalculadora</Name>
+    <ProjectReference Include="..\XamarinCalculadora\Calculadora.csproj">
+      <Project>{9B7F3A21-7CE8-4A5D-8612-2AFBC062C7E5}</Project>
+      <Name>Calculadora</Name>
     </ProjectReference>
   </ItemGroup>
- <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

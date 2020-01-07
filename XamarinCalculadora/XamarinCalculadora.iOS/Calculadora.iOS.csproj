@@ -127,9 +127,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\XamarinCalculadora\XamarinCalculadora.csproj">
-      <Project>{25C531CF-A14F-4164-9298-3AD70AFFA8EC}</Project>
-      <Name>XamarinCalculadora</Name>
+    <ProjectReference Include="..\XamarinCalculadora\Calculadora.csproj">
+      <Project>{9B7F3A21-7CE8-4A5D-8612-2AFBC062C7E5}</Project>
+      <Name>Calculadora</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
