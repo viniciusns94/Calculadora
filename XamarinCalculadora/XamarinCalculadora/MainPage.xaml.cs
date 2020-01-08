@@ -8,8 +8,6 @@ using Xamarin.Forms;
 
 namespace XamarinCalculadora
 {
-    // Learn more about making custom code visible in the Xamarin.Forms previewer
-    // by visiting https://aka.ms/xamarinforms-previewer
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
@@ -57,6 +55,42 @@ namespace XamarinCalculadora
                 {
                     secondNumber = number;
                 }
+            }
+        }
+
+        void onSelectOperator(object sender, EventArgs e)
+        {
+            currentState = -2;
+            Button button = (Button)sender;
+            string pressed = button.Text;
+            mathOperator = pressed;
+        }
+
+        void onCalculate(object sender, EventArgs e)
+        {
+            if(currentState == 2)
+            {
+                Double result = 0;
+                if(mathOperator == "+")
+                {
+                    result = firstNumber + secondNumber;
+                }
+                if (mathOperator == "-")
+                {
+                    result = firstNumber + secondNumber;
+                }
+                if (mathOperator == "/")
+                {
+                    result = firstNumber / secondNumber;
+                }
+                if (mathOperator == "X")
+                {
+                    result = firstNumber * secondNumber;
+                }
+
+                this.result_text.Text = result.ToString("N0");
+                firstNumber = result;
+                currentState = -1;
             }
         }
     }

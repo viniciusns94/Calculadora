@@ -29,22 +29,22 @@
         <Button Text="7" Grid.Row="1" Grid.Column="0" BackgroundColor="White" TextColor="Black" FontSize="36" BorderRadius="0" Clicked="onSelectNumber"/>
         <Button Text="8" Grid.Row="1" Grid.Column="1" BackgroundColor="White" TextColor="Black" FontSize="36" BorderRadius="0" Clicked="onSelectNumber"/>
         <Button Text="9" Grid.Row="1" Grid.Column="2" BackgroundColor="White" TextColor="Black" FontSize="36" BorderRadius="0" Clicked="onSelectNumber"/>
-        <Button Text="/" Grid.Row="1" Grid.Column="3" BackgroundColor="Orange" TextColor="White" FontSize="36" BorderRadius="0" />
+        <Button Text="/" Grid.Row="1" Grid.Column="3" BackgroundColor="Orange" TextColor="White" FontSize="36" BorderRadius="0" Clicked="onSelectOperator"/>
 
         <Button Text="4" Grid.Row="2" Grid.Column="0" BackgroundColor="White" TextColor="Black" FontSize="36" BorderRadius="0" Clicked="onSelectNumber"/>
         <Button Text="5" Grid.Row="2" Grid.Column="1" BackgroundColor="White" TextColor="Black" FontSize="36" BorderRadius="0" Clicked="onSelectNumber"/>
         <Button Text="6" Grid.Row="2" Grid.Column="2" BackgroundColor="White" TextColor="Black" FontSize="36" BorderRadius="0" Clicked="onSelectNumber"/>
-        <Button Text="X" Grid.Row="2" Grid.Column="3" BackgroundColor="Orange" TextColor="White" FontSize="36" BorderRadius="0" />
+        <Button Text="X" Grid.Row="2" Grid.Column="3" BackgroundColor="Orange" TextColor="White" FontSize="36" BorderRadius="0" Clicked="onSelectOperator"/>
 
         <Button Text="1" Grid.Row="3" Grid.Column="0" BackgroundColor="White" TextColor="Black" FontSize="36" BorderRadius="0" Clicked="onSelectNumber"/>
         <Button Text="2" Grid.Row="3" Grid.Column="1" BackgroundColor="White" TextColor="Black" FontSize="36" BorderRadius="0" Clicked="onSelectNumber"/>
         <Button Text="3" Grid.Row="3" Grid.Column="2" BackgroundColor="White" TextColor="Black" FontSize="36" BorderRadius="0" Clicked="onSelectNumber"/>
-        <Button Text="-" Grid.Row="3" Grid.Column="3" BackgroundColor="Orange" TextColor="White" FontSize="36" BorderRadius="0" />
+        <Button Text="-" Grid.Row="3" Grid.Column="3" BackgroundColor="Orange" TextColor="White" FontSize="36" BorderRadius="0" Clicked="onSelectOperator"/>
 
         <Button Text="0" Grid.Row="4" Grid.ColumnSpan="3" BackgroundColor="White" TextColor="Black" FontSize="36" BorderRadius="0" Clicked="onSelectNumber"/>
-        <Button Text="+" Grid.Row="4" Grid.Column="3" BackgroundColor="Orange" TextColor="White" FontSize="36" BorderRadius="0"/>
+        <Button Text="+" Grid.Row="4" Grid.Column="3" BackgroundColor="Orange" TextColor="White" FontSize="36" BorderRadius="0" Clicked="onSelectOperator"/>
 
         <Button Text="C" Grid.Row="5" Grid.Column="0" BackgroundColor="Gray" TextColor="White" FontSize="36" BorderRadius="0" Clicked="onClear"/>
-        <Button Text="=" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" BackgroundColor="Orange" TextColor="White" FontSize="36" BorderRadius="0"/>
+        <Button Text="=" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" BackgroundColor="Orange" TextColor="White" FontSize="36" BorderRadius="0" Clicked="onCalculate"/>
     </Grid>
 </ContentPage>
